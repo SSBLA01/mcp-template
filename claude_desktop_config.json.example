@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "Mathematical-Research-MCP": {
+      "command": "bash",
+      "args": ["FULL_PATH_TO_YOUR_REPO/run_dobbs_mcp.sh"],
+      "cwd": "FULL_PATH_TO_YOUR_REPO",
+      "env": {
+        "PYTHONPATH": "FULL_PATH_TO_YOUR_REPO"
+      }
+    }
+  }
+}
