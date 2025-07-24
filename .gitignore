@@ -1,0 +1,118 @@
+# Environment variables and sensitive information
+.env
+*.env
+.env.local
+.env.production
+.env.development
+
+# API keys and secrets
+config/secrets.json
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Output directories
+outputs/
+manim_outputs/
+animations/
+
+# Personal notes and documents
+notes/
+personal/
+private/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Cache directories
+.cache/
+cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Local configuration files that shouldn't be shared
+claude_desktop_config.json
+local_config.json
+user_config.json
